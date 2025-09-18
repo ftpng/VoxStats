@@ -1,0 +1,13 @@
+from os import getenv
+from typing import Text
+
+from dotenv import load_dotenv; load_dotenv()
+
+
+TOKEN: Text = getenv('TOKEN')
+VERSION: str = "2.0.0"
+
+COLOR_GREEN: int = 0x32BA7C
+COLOR_RED: int = 0xF15249
+COLOR_YELLOW: int = 0xF8C049
+COLOR_BLUE: int = 0x5555FF
