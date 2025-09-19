@@ -14,6 +14,6 @@ COLOR_YELLOW: int = 0xF8C049
 COLOR_BLUE: int = 0x5555FF
 
 mojang_session = CachedSession(
-    cache_name="vixlib/.cache/mojang_cache", 
+    cache_name="voxlib/.cache/mojang_cache", 
     expire_after=60
 )
