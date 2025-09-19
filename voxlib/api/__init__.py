@@ -5,7 +5,7 @@ from .errors import (
     BadRequestError, 
     UnexpectedStatusError
 )
-from .request import API
+from .request import *
 
 
 __all__ = [
@@ -14,5 +14,4 @@ __all__ = [
     'RateLimitError',
     'BadRequestError',
     'UnexpectedStatusError',
-    'API',
 ]

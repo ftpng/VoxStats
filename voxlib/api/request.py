@@ -18,9 +18,9 @@ load_dotenv()
 API_KEY = getenv("API_KEY")
 
 voxyl_cache = SQLiteBackend(
-    cache_name=".cache/voxyl_cache",
-    expire_after=300,
+    cache_name="voxlib/.cache/voxyl_cache", expire_after=300,
 )
+
 
 class VoxylAPI:
     """
